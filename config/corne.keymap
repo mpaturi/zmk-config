@@ -13,7 +13,7 @@
         compatible = "zmk,combos";
 
         win {
-            bindings = <&kp LEFT_WIN>;
+            bindings = <&kp Z>;
             key-positions = <24 12 25>;
             layers = <0>;
         };
@@ -47,7 +47,7 @@
             bindings = <
 &kp TAB  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5       &kp F6        &kp F7        &kp F8         &kp F9            &kp F10   &kp ESCAPE
 &trans   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5       &kp NUMBER_6  &kp N7        &kp N8         &kp N9            &kp N0    &kp PIPE
-&trans   &kp GRAVE     &kp TILDE     &kp PLUS      &kp MINUS     &kp EQUAL    &kp SLASH     &kp QUESTION  &kp LESS_THAN  &kp GREATER_THAN  &kp HOME  &kp END
+&trans   &trans        &trans        &kp PLUS      &kp MINUS     &kp EQUAL    &kp SLASH     &kp ASTERISK  &kp LESS_THAN  &kp GREATER_THAN  &kp HOME  &kp END
                                      &mo 1         &trans        &trans       &trans        &trans        &mo 2
             >;
         };
@@ -62,7 +62,7 @@
             bindings = <
 &kp TAB  &kp F11          &kp F12      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp UP          &kp C_VOLUME_UP    &kp ESCAPE
 &trans   &kp EXCLAMATION  &kp AT_SIGN  &kp HASH          &kp DOLLAR         &kp PERCENT             &kp CARET              &kp AMPERSAND   &kp ASTERISK     &kp DOWN_ARROW  &kp C_VOLUME_DOWN  &kp PRINTSCREEN
-&trans   &kp GRAVE        &kp TILDE    &trans            &trans             &trans                  &kp NON_US_BACKSLASH   &kp UNDERSCORE  &kp SEMICOLON    &kp COLON       &kp LEFT_ARROW     &kp RIGHT
+&trans   &kp GRAVE        &kp TILDE    &trans            &trans             &trans                  &kp NON_US_BACKSLASH   &kp UNDERSCORE  &kp LEFT_ARROW   &kp RIGHT       &kp HOME           &kp END
                                        &mo 1             &trans             &trans                  &trans                 &trans          &mo 2
             >;
         };
