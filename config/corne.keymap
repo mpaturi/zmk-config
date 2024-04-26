@@ -19,6 +19,16 @@
         };
     };
 
+    macros {
+        shiftnav: shiftnav {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp UP>, <&macro_press>, <&kp LS(HOME)>;
+
+            label = "SHIFTNAV";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -60,9 +70,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE  &kp F11          &kp F12      &trans    &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans         &kp UP            &kp C_VOLUME_UP    &trans
-&trans      &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR        &kp PERCENT          &kp CARET             &kp AMPERSAND          &kp ASTERISK   &kp DOWN_ARROW    &kp C_VOLUME_DOWN  &kp PRINTSCREEN
-&trans      &kp GRAVE        &trans       &trans    &trans            &trans               &kp NON_US_BACKSLASH  &kp SEMICOLON          &kp LESS_THAN  &kp GREATER_THAN  &kp HOME           &kp END
+&kp ESCAPE  &kp F11          &kp F12      &trans    &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans         &kp C_VOLUME_UP   &kp UP_ARROW    &trans
+&trans      &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR        &kp PERCENT          &kp CARET             &kp AMPERSAND          &kp ASTERISK   &kp C_VOL_DN      &kp DOWN_ARROW  &kp PRINTSCREEN
+&trans      &kp GRAVE        &trans       &trans    &trans            &trans               &kp NON_US_BACKSLASH  &kp SEMICOLON          &kp LESS_THAN  &kp GREATER_THAN  &shiftnav       &kp END
                                           &mo 1     &trans            &trans               &trans                &trans                 &mo 2
             >;
         };
