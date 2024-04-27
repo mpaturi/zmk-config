@@ -60,7 +60,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE  &kp F11          &kp F12      &trans    &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER      &kp EQUAL         &kp C_VOLUME_UP    &kp UP
+&kp ESCAPE  &kp F11          &kp F12      &trans    &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS      &kp EQUAL         &kp C_VOLUME_UP    &kp UP
 &trans      &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR        &kp PERCENT          &kp CARET             &kp AMPERSAND          &kp ASTERISK   &none             &kp C_VOLUME_DOWN  &kp DOWN
 &trans      &kp GRAVE        &trans       &trans    &trans            &trans               &kp NON_US_BACKSLASH  &kp SEMICOLON          &kp LESS_THAN  &kp GREATER_THAN  &trans             &trans
                                           &mo 1     &trans            &trans               &trans                &trans                 &mo 2
