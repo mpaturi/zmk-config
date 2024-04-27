@@ -16,6 +16,7 @@
             bindings = <&kp LEFT_WIN>;
             key-positions = <24 12 25>;
             layers = <0>;
+            timeout-ms = <300>;
         };
     };
 
