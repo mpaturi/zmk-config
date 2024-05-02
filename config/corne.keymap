@@ -20,6 +20,16 @@
         };
     };
 
+    macros {
+        shiftenter: shiftenter {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LSHIFT &kp ENTER>, <&macro_tap>;
+
+            label = "SHIFTENTER";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -33,7 +43,7 @@
             bindings = <
 &mt ESCAPE TAB  &kp Q  &kp W  &kp E  &kp R          &kp T         &kp Y      &kp U        &kp I      &kp O    &kp P      &mt PRINTSCREEN C_MUTE
 &kp LCTRL       &kp A  &kp S  &kp D  &kp F          &kp G         &kp H      &kp J        &kp K      &kp L    &kp SLASH  &kp RIGHT_WIN
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp V          &kp B         &kp N      &kp M        &kp COMMA  &kp DOT  &kp SQT    &kp RIGHT_CONTROL
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp V          &kp B         &kp N      &kp M        &kp COMMA  &kp DOT  &kp SQT    &shiftenter
                               &mo 1  &kp BACKSPACE  &kp DELETE    &kp ENTER  &lt 4 SPACE  &mo 2
             >;
         };
