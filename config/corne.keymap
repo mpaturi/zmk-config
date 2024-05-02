@@ -9,22 +9,13 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        win {
-            bindings = <&kp LEFT_WIN>;
-            key-positions = <24 12 25>;
-            layers = <0>;
-            timeout-ms = <300>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     macros {
         shiftenter: shiftenter {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LSHIFT &kp ENTER>, <&macro_tap>;
+            bindings = <&kp LSHIFT &kp ENTER>, <&macro_press>;
 
             label = "SHIFTENTER";
         };
@@ -56,10 +47,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE  &kp F1                        &kp F2                &kp F3             &kp F4               &kp F5       &kp F6                &kp F7         &kp F8         &kp F9            &kp F10  &kp F11
-&trans      &mt LS(EXCLAMATION) NUMBER_1  &mt AT_SIGN NUMBER_2  &mt HASH NUMBER_3  &mt DOLLAR NUMBER_4  &kp N5       &kp NUMBER_6          &kp N7         &kp N8         &kp N9            &kp N0   &kp F12
-&trans      &kp GRAVE                     &trans                &kp ASTERISK       &kp MINUS            &kp EQUAL    &kp NON_US_BACKSLASH  &kp SEMICOLON  &kp LESS_THAN  &kp GREATER_THAN  &trans   &trans
-                                                                &mo 1              &trans               &trans       &trans                &trans         &mo 2
+&kp ESCAPE  &kp F1                        &kp F2                &kp F3             &kp F4               &kp F5                &kp F6                &kp F7            &kp F8           &kp F9                       &kp F10                   &kp F11
+&trans      &mt LS(EXCLAMATION) NUMBER_1  &mt AT_SIGN NUMBER_2  &mt HASH NUMBER_3  &mt DOLLAR NUMBER_4  &mt LS(PERCENT) N5    &mt CARET NUMBER_6    &mt AMPERSAND N7  &mt ASTERISK N8  &mt LS(LEFT_PARENTHESIS) N9  &mt RIGHT_PARENTHESIS N0  &kp F12
+&trans      &kp GRAVE                     &trans                &kp ASTERISK       &kp MINUS            &kp EQUAL             &kp NON_US_BACKSLASH  &kp SEMICOLON     &kp LESS_THAN    &kp GREATER_THAN             &trans                    &trans
+                                                                &mo 1              &trans               &trans                &trans                &trans            &mo 2
             >;
         };
 
