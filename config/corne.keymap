@@ -80,9 +80,9 @@
 
         nav {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &kp PG_UP        &trans    &trans          &kp UP    &trans           &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &kp PAGE_DOWN    &kp HOME  &kp LEFT_ARROW  &kp DOWN  &kp RIGHT_ARROW  &kp END  &trans
-&trans  &trans  &trans  &trans  &trans  &trans           &trans    &trans          &trans    &trans           &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &kp PG_UP        &kp END   &trans          &kp UP    &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp PAGE_DOWN    &kp HOME  &kp LEFT_ARROW  &kp DOWN  &kp RIGHT_ARROW  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans           &trans    &trans          &trans    &trans           &trans  &trans
                         &trans  &trans  &trans           &trans    &mo 4           &trans
             >;
         };
