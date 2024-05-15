@@ -65,7 +65,7 @@
 &kp ESCAPE  &trans           &trans       &trans    &trans      &mt PLUS EQUAL    &kp LEFT_PARENTHESIS       &kp RIGHT_PARENTHESIS  &mt MINUS UNDER  &mt LEFT_BRACE LEFT_BRACKET  &mt RIGHT_BRACE RIGHT_BRACKET   &kp C_VOLUME_UP
 &trans      &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT       &kp CARET                  &kp AMPERSAND          &kp ASTERISK     &mt SEMI COLON               &mt SLASH QUESTION              &kp C_VOL_DN
 &trans      &mt TILDE GRAVE  &trans       &trans    &trans      &trans            &mt PIPE NON_US_BACKSLASH  &mt COLON SEMICOLON    &kp LESS_THAN    &kp GREATER_THAN             &mt DOUBLE_QUOTES SINGLE_QUOTE  &trans
-                                          &mo 1     &trans      &trans            &trans                     &trans                 &mo 2
+                                          &trans    &trans      &trans            &trans                     &trans                 &mo 2
             >;
         };
 
