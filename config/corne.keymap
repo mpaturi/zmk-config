@@ -68,10 +68,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE  &trans           &trans       &trans    &trans      &mt PLUS EQUAL    &kp LEFT_PARENTHESIS       &kp RIGHT_PARENTHESIS  &mt MINUS UNDER  &mt LEFT_BRACE LEFT_BRACKET  &mt RIGHT_BRACE RIGHT_BRACKET   &kp C_VOLUME_UP
-&trans      &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT       &kp CARET                  &kp AMPERSAND          &kp ASTERISK     &trans                       &mt SLASH QUESTION              &kp C_VOL_DN
-&trans      &mt TILDE GRAVE  &trans       &trans    &trans      &trans            &mt PIPE NON_US_BACKSLASH  &mt SEMI COLON         &kp LESS_THAN    &kp GREATER_THAN             &mt DOUBLE_QUOTES SINGLE_QUOTE  &trans
-                                          &trans    &trans      &trans            &trans                     &trans                 &trans
+&kp ESCAPE  &trans           &trans       &trans    &trans      &trans         &kp LEFT_PARENTHESIS       &kp RIGHT_PARENTHESIS  &mt MINUS UNDER  &mt LEFT_BRACE LEFT_BRACKET  &mt RIGHT_BRACE RIGHT_BRACKET   &kp C_VOLUME_UP
+&trans      &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET                  &kp AMPERSAND          &kp ASTERISK     &trans                       &trans                          &kp C_VOL_DN
+&trans      &mt TILDE GRAVE  &trans       &trans    &trans      &trans         &mt PIPE NON_US_BACKSLASH  &mt SEMI COLON         &kp LESS_THAN    &kp GREATER_THAN             &mt DOUBLE_QUOTES SINGLE_QUOTE  &trans
+                                          &trans    &trans      &trans         &trans                     &trans                 &trans
             >;
         };
 
@@ -86,10 +86,10 @@
 
         nav {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &kp PG_UP        &trans        &kp HOME        &kp UP    &kp END          &trans       &trans
-&trans  &trans  &trans  &trans  &trans  &kp PAGE_DOWN    &kp LS(HOME)  &kp LEFT_ARROW  &kp DOWN  &kp RIGHT_ARROW  &kp LS(END)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans           &trans        &trans          &trans    &trans           &trans       &trans
-                        &trans  &trans  &trans           &trans        &mo 4           &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp PG_UP      &kp HOME        &kp UP    &kp END          &trans       &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LS(HOME)   &kp LEFT_ARROW  &kp DOWN  &kp RIGHT_ARROW  &kp LS(END)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp PAGE_DOWN  &trans          &trans    &trans           &trans       &trans
+                        &trans  &trans  &trans    &trans         &mo 4           &trans
             >;
         };
     };
