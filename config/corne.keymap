@@ -38,10 +38,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&mt ESCAPE TAB  &mt LS(Q) Q  &mt LS(W) W  &mt LS(E) E  &mt LS(R) R                  &mt LS(T) T    &mt LS(Y) Y  &mt LS(U) U  &mt LS(I) I          &mt LS(O) O            &mt LS(P) P          &mt PRINTSCREEN C_MUTE
-&kp LCTRL       &mt LS(A) A  &mt LS(S) S  &mt LS(D) D  &mt LS(F) F                  &mt LS(G) G    &mt LS(H) H  &mt LS(J) J  &mt LS(K) K          &mt LS(L) L            &mt LS(SLASH) SLASH  &kp RIGHT_WIN
-&kp LEFT_SHIFT  &mt LS(Z) Z  &mt LS(X) X  &mt LS(C) C  &mt LS(V) V                  &mt LS(B) B    &mt LS(N) N  &mt LS(M) M  &mt LS(COMMA) COMMA  &mt LS(PERIOD) PERIOD  &mt LS(SQT) SQT      &mt RIGHT_ALT LS(ENTER)
-                                          &sl 1        &mt LC(BACKSPACE) BACKSPACE  &kp DELETE     &kp ENTER    &lt 4 SPACE  &mo 2
+&mt ESCAPE TAB  &mt LS(Q) Q  &mt LS(W) W  &mt LS(E) E  &mt LS(R) R                  &mt LS(T) T    &mt LS(Y) Y          &mt LS(U) U  &mt LS(I) I          &mt LS(O) O            &mt LS(P) P          &mt PRINTSCREEN C_MUTE
+&kp LCTRL       &mt LS(A) A  &mt LS(S) S  &mt LS(D) D  &mt LS(F) F                  &mt LS(G) G    &mt LS(H) H          &mt LS(J) J  &mt LS(K) K          &mt LS(L) L            &mt LS(SLASH) SLASH  &kp RIGHT_WIN
+&kp LEFT_SHIFT  &mt LS(Z) Z  &mt LS(X) X  &mt LS(C) C  &mt LS(V) V                  &mt LS(B) B    &mt LS(N) N          &mt LS(M) M  &mt LS(COMMA) COMMA  &mt LS(PERIOD) PERIOD  &mt LS(SQT) SQT      &kp LEFT_ALT
+                                          &sl 1        &mt LC(BACKSPACE) BACKSPACE  &kp DELETE     &mt LS(ENTER) ENTER  &lt 4 SPACE  &mo 2
             >;
         };
 
