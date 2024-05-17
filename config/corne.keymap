@@ -38,10 +38,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&mt ESCAPE TAB  &mt LS(Q) Q  &mt LS(W) W  &mt LS(E) E  &mt LS(R) R                  &mt LS(T) T    &mt LS(Y) Y          &mt LS(U) U  &mt LS(I) I          &mt LS(O) O            &mt LS(P) P          &mt PRINTSCREEN C_MUTE
-&kp LCTRL       &mt LS(A) A  &mt LS(S) S  &mt LS(D) D  &mt LS(F) F                  &mt LS(G) G    &mt LS(H) H          &mt LS(J) J  &mt LS(K) K          &mt LS(L) L            &mt LS(SLASH) SLASH  &kp RIGHT_WIN
-&kp LEFT_SHIFT  &mt LS(Z) Z  &mt LS(X) X  &mt LS(C) C  &mt LS(V) V                  &mt LS(B) B    &mt LS(N) N          &mt LS(M) M  &mt LS(COMMA) COMMA  &mt LS(PERIOD) PERIOD  &mt LS(SQT) SQT      &kp LEFT_ALT
-                                          &sl 1        &mt LC(BACKSPACE) BACKSPACE  &kp DELETE     &mt LS(ENTER) ENTER  &lt 4 SPACE  &mo 2
+&mt ESCAPE TAB    &mt LS(Q) Q  &mt LS(W) W  &mt LS(E) E  &mt LS(R) R                  &mt LS(T) T    &mt LS(Y) Y          &mt LS(U) U  &mt LS(I) I          &mt LS(O) O            &mt LS(P) P          &mt PRINTSCREEN C_MUTE
+&kp LEFT_SHIFT    &mt LS(A) A  &mt LS(S) S  &mt LS(D) D  &mt LS(F) F                  &mt LS(G) G    &mt LS(H) H          &mt LS(J) J  &mt LS(K) K          &mt LS(L) L            &mt LS(SLASH) SLASH  &kp RIGHT_WIN
+&kp LEFT_CONTROL  &mt LS(Z) Z  &mt LS(X) X  &mt LS(C) C  &mt LS(V) V                  &mt LS(B) B    &mt LS(N) N          &mt LS(M) M  &mt LS(COMMA) COMMA  &mt LS(PERIOD) PERIOD  &mt LS(SQT) SQT      &kp LEFT_ALT
+                                            &sl 1        &mt LC(BACKSPACE) BACKSPACE  &kp DELETE     &mt LS(ENTER) ENTER  &lt 4 SPACE  &mo 2
             >;
         };
 
@@ -53,10 +53,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE  &kp F1                        &kp F2                &kp F3             &kp F4               &kp F5                &kp F6                     &kp F7            &kp F8           &kp F9                       &kp F10                   &kp F11
-&trans      &mt LS(EXCLAMATION) NUMBER_1  &mt AT_SIGN NUMBER_2  &mt HASH NUMBER_3  &mt DOLLAR NUMBER_4  &mt LS(PERCENT) N5    &mt CARET NUMBER_6         &mt AMPERSAND N7  &mt ASTERISK N8  &mt LS(LEFT_PARENTHESIS) N9  &mt RIGHT_PARENTHESIS N0  &kp F12
-&trans      &mt TILDE GRAVE               &trans                &kp ASTERISK       &mt UNDER MINUS      &mt PLUS EQUAL        &mt PIPE NON_US_BACKSLASH  &mt SEMI COLON    &kp LESS_THAN    &kp GREATER_THAN             &trans                    &trans
-                                                                &trans             &trans               &trans                &trans                     &trans            &trans
+&kp ESCAPE  &kp F1                        &kp F2                    &kp F3                  &kp F4                   &kp F5                &kp F6                     &kp F7                &kp F8               &kp F9                       &kp F10                       &kp F11
+&trans      &mt LS(EXCLAMATION) NUMBER_1  &mt LS(AT_SIGN) NUMBER_2  &mt LS(POUND) NUMBER_3  &mt LS(DOLLAR) NUMBER_4  &mt LS(PERCENT) N5    &mt LS(LCTRL) NUMBER_6     &mt LS(AMPERSAND) N7  &mt LS(ASTERISK) N8  &mt LS(LEFT_PARENTHESIS) N9  &mt LS(RIGHT_PARENTHESIS) N0  &kp F12
+&trans      &mt TILDE GRAVE               &trans                    &kp ASTERISK            &mt UNDER MINUS          &mt PLUS EQUAL        &mt PIPE NON_US_BACKSLASH  &mt SEMI COLON        &kp LESS_THAN        &kp GREATER_THAN             &trans                        &trans
+                                                                    &trans                  &trans                   &trans                &trans                     &trans                &trans
             >;
         };
 
