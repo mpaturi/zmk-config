@@ -54,7 +54,7 @@
 
             bindings = <
 &kp ESCAPE  &kp F1                        &kp F2                    &kp F3                  &kp F4                   &kp F5                &kp F6                     &kp F7                &kp F8               &kp F9                       &kp F10                       &kp F11
-&trans      &mt LS(EXCLAMATION) NUMBER_1  &mt LS(AT_SIGN) NUMBER_2  &mt LS(POUND) NUMBER_3  &mt LS(DOLLAR) NUMBER_4  &mt LS(PERCENT) N5    &mt LS(NUMBER_6) N6        &mt LS(AMPERSAND) N7  &mt LS(ASTERISK) N8  &mt LS(LEFT_PARENTHESIS) N9  &mt LS(RIGHT_PARENTHESIS) N0  &kp F12
+&trans      &mt LS(EXCLAMATION) NUMBER_1  &mt LS(AT_SIGN) NUMBER_2  &mt LS(POUND) NUMBER_3  &mt LS(DOLLAR) NUMBER_4  &mt LS(PERCENT) N5    &mt CARET NUMBER_6         &mt LS(AMPERSAND) N7  &mt LS(ASTERISK) N8  &mt LS(LEFT_PARENTHESIS) N9  &mt LS(RIGHT_PARENTHESIS) N0  &kp F12
 &trans      &mt TILDE GRAVE               &trans                    &kp ASTERISK            &mt UNDER MINUS          &mt PLUS EQUAL        &mt PIPE NON_US_BACKSLASH  &mt SEMI COLON        &kp LESS_THAN        &kp GREATER_THAN             &trans                        &trans
                                                                     &trans                  &trans                   &trans                &trans                     &trans                &trans
             >;
