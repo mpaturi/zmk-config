@@ -89,7 +89,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &kp PG_UP      &kp HOME        &kp UP    &kp END          &trans       &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LS(HOME)   &kp LEFT_ARROW  &kp DOWN  &kp RIGHT_ARROW  &kp LS(END)  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &kp PAGE_DOWN  &trans          &trans    &trans           &trans       &trans
-                        &trans  &trans  &trans    &trans         &mo 4           &trans
+                        &trans  &trans  &trans    &trans         &trans          &trans
             >;
         };
     };
