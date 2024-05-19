@@ -105,8 +105,8 @@
         nav {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &kp PG_UP      &kp LS(HOME)   &kp UP    &kp LS(END)    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp PAGE_DOWN  &mt HOME LEFT  &kp DOWN  &mt END RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp SPACE      &trans         &trans    &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp SPACE      &mt HOME LEFT  &kp DOWN  &mt END RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp PAGE_DOWN  &trans         &trans    &trans         &trans  &trans
                         &trans  &trans  &trans    &trans         &trans         &trans
             >;
         };
