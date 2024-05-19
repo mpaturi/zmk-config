@@ -25,6 +25,13 @@
 
             label = "SHIFTENTER";
         };
+
+        altdtap: altdtap {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(SQT)>;
+            label = "ALTDTAP";
+        };
     };
 
     behaviors {
@@ -120,10 +127,10 @@
 
         ctlfuncs {
             bindings = <
-&trans  &trans     &kp LC(W)  &trans      &trans       &kp LC(T)    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(A)  &kp LC(S)  &trans      &trans       &trans       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(Z)  &trans     &kp K_COPY  &kp K_PASTE  &trans       &trans  &trans  &trans  &trans  &trans  &trans
-                              &trans      &trans       &trans       &trans  &trans  &trans
+&trans  &trans     &kp LC(W)  &trans     &trans     &kp LC(T)    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(A)  &kp LC(S)  &trans     &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(Z)  &trans     &kp LC(C)  &kp LC(P)  &trans       &trans  &trans  &trans  &trans  &trans  &trans
+                              &trans     &trans     &trans       &trans  &trans  &trans
             >;
         };
     };
