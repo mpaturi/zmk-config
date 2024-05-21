@@ -15,7 +15,14 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        spaces {
+            bindings = <&kp SPACE>;
+            key-positions = <39 40>;
+        };
+    };
 
     macros {
         shiftenter: shiftenter {
