@@ -23,6 +23,11 @@
             bindings = <&kp SPACE>;
             key-positions = <39 40>;
         };
+
+        tab-q--esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
+        };
     };
 
     behaviors {
