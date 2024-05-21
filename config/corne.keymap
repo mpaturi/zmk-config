@@ -37,7 +37,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "NAV_DTAP";
             #binding-cells = <0>;
-            bindings = <&lt 4 SPACE>, <&to 4>, <&to 0>;
+            bindings = <&lt 4 SPACE>, <&tog 4>;
 
             tapping-term-ms = <240>;
         };
