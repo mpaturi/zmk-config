@@ -24,9 +24,9 @@
             key-positions = <39 40>;
         };
 
-        tab-q--shift-sticky {
+        qw--shift-sticky {
             bindings = <&kt LEFT_SHIFT>;
-            key-positions = <0 1>;
+            key-positions = <1 2>;
         };
     };
 
