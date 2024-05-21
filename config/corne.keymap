@@ -46,7 +46,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "NAV_DTAP";
             #binding-cells = <0>;
-            bindings = <&lt 4 SPACE>, <&to 4>, <&to 0>;
+            bindings = <&mo 4>, <&to 4>, <&to 0>;
 
             tapping-term-ms = <240>;
         };
@@ -118,10 +118,10 @@
 
         nav {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp PG_UP      &kp LS(HOME)   &kp UP    &kp LS(END)    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp SPACE      &mt HOME LEFT  &kp DOWN  &mt END RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp PAGE_DOWN  &trans         &trans    &trans         &trans  &trans
-                        &trans  &trans  &trans    &trans         &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp PG_UP      &mt LS(HOME) HOME  &kp UP    &mt LS(END) END  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp SPACE      &kp LEFT           &kp DOWN  &kp RIGHT        &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp PAGE_DOWN  &trans             &trans    &trans           &trans  &trans
+                        &trans  &trans  &trans    &trans         &kp SPACE          &trans
             >;
         };
 
