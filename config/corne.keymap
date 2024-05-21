@@ -25,16 +25,6 @@
         };
     };
 
-    macros {
-        shiftenter: shiftenter {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LS(ENTER)>;
-
-            label = "SHIFTENTER";
-        };
-    };
-
     behaviors {
         nums_dtap: nums_dtap {
             compatible = "zmk,behavior-tap-dance";
