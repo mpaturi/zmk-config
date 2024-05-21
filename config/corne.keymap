@@ -32,13 +32,6 @@
 
             label = "SHIFTENTER";
         };
-
-        altdtap: altdtap {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LA(SQT)>;
-            label = "ALTDTAP";
-        };
     };
 
     behaviors {
