@@ -43,8 +43,6 @@
             label = "NAV_DTAP";
             #binding-cells = <0>;
             bindings = <&lt 4 SPACE>, <&tog 4>;
-
-            tapping-term-ms = <240>;
         };
 
         tab_esc_shift: tab_esc_shift {
