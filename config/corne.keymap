@@ -52,13 +52,6 @@
             tapping-term-ms = <240>;
         };
 
-        ctl_tog: ctl_tog {
-            compatible = "zmk,behavior-tap-dance";
-            label = "CTL_TOG";
-            #binding-cells = <0>;
-            bindings = <&kt LEFT_CONTROL>;
-        };
-
         del_shiftdtap: del_shiftdtap {
             compatible = "zmk,behavior-tap-dance";
             label = "DEL_SHIFTDTAP";
