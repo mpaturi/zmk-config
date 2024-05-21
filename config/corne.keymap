@@ -46,7 +46,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "SHIFTDTAP";
             #binding-cells = <0>;
-            bindings = <&kp LS(ENTER)>, <&kt LEFT_SHIFT>, <&to 0>;
+            bindings = <&kp LS(ENTER)>, <&kt LEFT_SHIFT>;
         };
     };
 
