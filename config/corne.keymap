@@ -15,6 +15,11 @@
     flavor = "tap-preferred";
 };
 
+&lt {
+    tapping-term-ms = <150>;
+    flavor = "balanced";
+};
+
 / {
     combos {
         compatible = "zmk,combos";
