@@ -16,8 +16,9 @@
 };
 
 &lt {
-    tapping-term-ms = <150>;
-    flavor = "balanced";
+    tapping-term-ms = <100>;
+    flavor = "tap-preferred";
+    quick-tap-ms = <0>;
 };
 
 / {
@@ -49,7 +50,7 @@
             #binding-cells = <0>;
             bindings = <&lt 4 SPACE>, <&tog 4>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <100>;
         };
 
         tab_esc_shift: tab_esc_shift {
