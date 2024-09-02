@@ -29,11 +29,6 @@
             bindings = <&kp SPACE>;
             key-positions = <39 40>;
         };
-
-        qw--shift-sticky {
-            bindings = <&kt LEFT_SHIFT>;
-            key-positions = <1 2>;
-        };
     };
 
     behaviors {
