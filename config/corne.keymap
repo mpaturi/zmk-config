@@ -16,8 +16,7 @@
 
 &lt {
     tapping-term-ms = <100>;
-    flavor = "tap-preferred";
-    quick-tap-ms = <50>;
+    flavor = "tap-unless-interrupted";
 };
 
 / {
@@ -36,7 +35,7 @@
             label = "NAV_DTAP";
             #binding-cells = <0>;
             bindings = <&lt 4 SPACE>;
-            tapping-term-ms = <100>;
+            tapping-term-ms = <150>;
         };
     };
 
