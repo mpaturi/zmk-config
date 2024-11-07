@@ -15,7 +15,7 @@
 };
 
 &lt {
-    tapping-term-ms = <100>;
+    tapping-term-ms = <200>;
     flavor = "balanced";
 };
 
@@ -35,7 +35,6 @@
             label = "NAV_DTAP";
             #binding-cells = <0>;
             bindings = <&lt 4 SPACE>;
-            tapping-term-ms = <150>;
         };
     };
 
