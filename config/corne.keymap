@@ -93,7 +93,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans           &trans       &trans    &trans      &trans         &mt GRAVE TILDE     &mt EQUAL PLUS  &mt MINUS UNDER  &mt LEFT_BRACE LEFT_BRACKET  &mt RIGHT_BRACE RIGHT_BRACKET   &kp C_VOLUME_UP
+&trans  &trans           &trans       &trans    &trans      &trans         &mt TILDE GRAVE     &mt PLUS EQUAL  &mt UNDER MINUS  &mt LEFT_BRACE LEFT_BRACKET  &mt RIGHT_BRACE RIGHT_BRACKET   &kp C_VOLUME_UP
 &trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET           &kp AMPERSAND   &kp ASTERISK     &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS           &kp C_VOL_DN
 &trans  &trans           &trans       &trans    &trans      &trans         &mt PIPE BACKSLASH  &mt SEMI COLON  &kp LESS_THAN    &kp GREATER_THAN             &mt DOUBLE_QUOTES SINGLE_QUOTE  &trans
                                       &trans    &trans      &trans         &trans              &trans          &trans
